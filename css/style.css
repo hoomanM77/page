@@ -1,0 +1,54 @@
+*{
+    font-family: Cairo,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+
+li {
+    list-style-type: none !important;
+
+}
+ul{
+    padding: 0!important;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 2;
+
+}
+
+p {
+    margin: 0.5rem 0;
+    text-align: justify;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 2;
+
+}
+
+a:hover {
+
+}
+.pagination-btn{
+    display: inline-flex;
+    line-height: 2;
+    background: #d64834;
+    padding: 0.2rem 1rem;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination-btn:hover, .pagination-btn.active{
+    background-color: #679cd6;
+}
